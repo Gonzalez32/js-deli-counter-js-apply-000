@@ -4,6 +4,16 @@ function takeANumber(katzDeliLine,Ada) {
   return(`Welcome, ${Ada}. You are number ${katzDeliLine.length} in line.`);
 }
 
+function takeANumber(katzDeliLine) {
+  var nub=1 
+  nub++;
+  katzDeliLine.push(nub)
+return(`Welcome you have ticket number ${nub}`);
+
+}
+
+
+
 
   function nowServing(katzDeliLine) { 
     let i=0;
